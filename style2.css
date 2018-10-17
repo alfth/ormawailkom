@@ -1,0 +1,75 @@
+body{
+background: url('gbr.jpg') no-repeat scroll;
+background-size: 100% 100%;
+min-height: 700px;
+margin: 30;
+}
+.dropmenu {
+    background: #ff8c00;
+    height: 35px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+}
+.dropmenu li {
+    border-right: solid 1px black;
+    float: left;
+    height: 35px;
+}
+.dropmenu li a {
+    color: #000000;
+    display: block;
+    font: 12px arial, verdana, sans-serif;
+    font-weight: bold;
+    padding: 10px 50px;
+    text-decoration: none;
+}
+.dropmenu li:hover { background: #DAA520; position: relative; }
+.dropmenu li:hover a { text-decoration: underline; }
+.dropmenu li:hover ul {
+    background-color: #ff8c00;
+    border: 1px solid black;
+    left: 0px;
+    padding: 3px;
+    top: 30px;
+    width: 160px;
+}
+.dropmenu li:hover ul li { border: none; height: 18px; }
+.dropmenu li:hover ul li a {
+    background-color: #ff8c00;
+    border: 1px solid transparent;
+    color: #000000;
+    display: block;
+    font-size: 11px;
+    height: 18px;
+    line-height: 18px;
+    padding: 0px;
+    text-decoration: none;
+    text-indent: 5px;
+    width: 158px;
+    padding: 3px;
+}
+.dropmenu li:hover ul li a:hover {
+    background: goldenrod;
+    border: solid 1px #444;
+    color: #000;
+    height: 18px;
+    padding: 3px;
+}
+.dropmenu ul {
+    left: -9999px;
+    list-style-type: none;
+    position: absolute;
+    top: -9999px;
+
+}
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Needed to position the navbar */
+  position: relative;
+
+}
